@@ -1,0 +1,70 @@
+.menu{
+    background-color: #9332a8;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    padding: 5px;
+    justify-content:center;
+}
+.menuedit{
+    background-color: purple;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    margin-left: 7px;
+    border: purple solid 1px;
+    border-radius: 20px;
+    justify-content:center;
+}
+.menubar{
+    background-color: #9332a8;
+    padding: 5px;
+    height: 35px;
+    justify-content:center;
+}
+.menuedit1{
+    background-color: purple;
+    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    margin-left: 40px;
+    border: purple solid 2px;
+    border-radius: 50%;
+    justify-content:center;
+}
+.menu1{
+    background-color: #9332a8;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    padding: 5px;
+    justify-content:center;
+}
+.body{
+    background-color:aqua;
+    height: 500px;
+    width: 100%;
+    justify-content: center;  
+}
+p{
+font-size: 55px;
+font-weight: bolder;
+}
+.text1{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+.text2{
+    position: absolute;
+    left:655px;
+    top: 175px;
+}
+.name{
+    background-color: #9332a8;
+    color: white;
+    position: absolute;
+    left:200px;
+    top: 335px;
+    border-radius: 25px;
+}
