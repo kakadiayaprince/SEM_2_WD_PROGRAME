@@ -1,0 +1,58 @@
+@keyframes redtoyellow {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+.redtoyellow{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: redtoyellow;
+    animation-duration: 2s;
+    border: 2px solid purple;
+    animation-iteration-count: infinite;
+}
+.righttoleft {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 15%;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: righttoleft;
+    -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes righttoleft {
+    0% {
+      right: 0;
+    }
+    50% {
+      bottom: 0;
+    }
+    100% {
+      right: 0;
+      -webkit-transform: scaleX(-1);
+    }
+  }
+  .uptobottom {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 15%;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: uptobottom;
+    -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes uptobottom {
+    0% {
+      left: 0;
+    }
+    50% {
+      right: 0;
+    }
+    100% {
+      left: 0;
+      -webkit-transform: scaley(-1);
+    }
+  }
+  .main{
+    display: flex;
+  }
