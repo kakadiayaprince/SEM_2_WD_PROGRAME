@@ -1,0 +1,65 @@
+.main{
+display: flex;
+}
+.rainbow1{
+animation-name: rainbow;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+background-color: purple;
+}
+.rainbow2{
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    background-color: blue;
+    }
+    .rainbow3{
+        animation-name: rainbow;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-delay: 1.5s;
+        background-color: skyblue;
+        }
+        .rainbow4{
+            animation-name: rainbow;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            background-color: green;
+            }
+            .rainbow5{
+                animation-name: rainbow;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-delay: 2.5s;
+                background-color: yellow;
+                }
+                .rainbow6{
+                    animation-name: rainbow;
+                    animation-duration: 4s;
+                    animation-iteration-count: infinite;
+                    animation-delay: 3s;
+                    background-color: orange;
+                    }
+                    .rainbow7{
+                        animation-name: rainbow;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        animation-delay: 3.5s;
+                        background-color: red;
+                        }
+@keyframes rainbow{
+    from {border: white solid 2px;
+        height: 100px;
+        width: 100px;
+    }
+    to {border: white solid 2px;
+        margin-top: 500px;
+        margin-left: 0px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+}

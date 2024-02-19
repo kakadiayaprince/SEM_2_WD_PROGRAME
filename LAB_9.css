@@ -1,0 +1,49 @@
+.main{
+display: flex;
+height: 1000px;
+width: 800px;
+}
+.color{
+  height: 100px;
+    width: 100px;
+animation-duration: 5s;
+animation-name: color;
+animation-iteration-count: infinite;
+}
+.rotate{
+    height: 100px;
+    width: 100px;
+    animation-duration: 5s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+@keyframes rotate{
+    0%{
+        margin: 0px;
+        background-color: red;
+    }
+    25%{
+        margin-top: 0px;
+        margin-left: 500px;
+        background-color: blue;
+    }
+    50%{
+        margin-top: 500px;
+        margin-left: 500px;
+        background-color: aqua;
+    }
+    75%{
+        margin-top: 500px;
+        margin-left: 0px;
+        background-color: brown;
+    }
+    100%{
+        margin: 0px;
+        background-color: yellow;
+    }
+
+}
