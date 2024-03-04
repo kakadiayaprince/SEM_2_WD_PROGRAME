@@ -1,26 +1,175 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./LAB_13_PART_B.css">
-    </head>
-    <body>
-        <div class="nav">
-            <div class="frist">
-              <img src="./guitar.jpg" width="100" height="100" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./LAB_13_PART_B.css">
+    <style>
+        .nav {
+            background-color: black;
+            font-family: Verdana, Tahoma, sans-serif;
+            display: flex;
+            align-items: center;
+            height: 100px;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        
+        .menu {
+            float: left;
+            margin-left: 15px;
+        }
+        
+        select {
+            background-color: black;
+            color: white;
+            border-color: black;
+        }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .download {
+            background-color: rgb(26, 151, 229);
+            height: 50px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            margin: 10px;
+        }
+        
+        .download>a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        span {
+            color: white;
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .frist {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contant {
+            background-color: rgb(105, 100, 100);
+            align-items: center;
+        }
+        
+        .event {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .eventshows {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .text {
+            background-color: white;
+            height: 150px;
+            width: 300px;
+        }
+        
+        .shows {
+            border: pink solid 5px;
+        }
+        
+        #high {
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="frist">
+            <img src="./guitar.png" width="100" height="100">
+            <span>SoundAPM</span></div>
+
+        <div class="navbar">
+            <select>
+                <option >HTML templates</option>
+                <option >Band Template</option>
+                <option >Gourmet Catering Template</option>
+                <option >Architect Template
+                </option>
+               </select>
+
+            <select>
+                <option > More HTML templates</option>
+                <option >Band Template</option>
+                <option >Gourmet Catering Template</option>
+                <option >Architect Template
+                </option>
+               </select>
+            <div class="download">
+                <a href="#">DOWNLOAD NOW</a>
             </div>
-            <div class="navbar">
-              <div class="menu">Home</div>
-              <div class="menu">Gallery</div>
-              <div class="menu">Services</div>
-              <div class="menu">Company</div>
-              <div class="menu">Contact</div>
+            <img src="./socia media logo.png" width="230" height="100" />
+        </div>
+    </div>
+    <div class="contant">
+        <div class="event">
+            <img src="./event.jpg" width="86%" height="350">
+        </div>
+        <div class="eventshows">
+            <div class="shows">
+                <img src="./show1.jpg" width="300px" height="300px">
+                <div class="text">
+                    <span id="high">Night Laser Show</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam officiis blanditiis.
+                    <div class="download">
+                        <a href="#">See More...</a>
+                    </div>
+                </div>
             </div>
-            <img src="./social media logo2.jpg" width="550" height="60" />
-          </div>
-    </body>
+
+            <div class="shows">
+                <img src="./show2.jpg" width="300px" height="300px">
+                <div class="text">
+                    <span id="high">Live MUsic</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam officiis blanditiis.
+                    <div class="download">
+                        <a href="#">See More...</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shows">
+                <img src="./show3.jpg" width="300px" height="300px">
+                <div class="text">
+                    <span id="high"></span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam officiis blanditiis.
+                    <div class="download">
+                        <a href="#">See More...</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shows">
+                <img src="./show4.jpg" width="300px" height="300px">
+                <div class="text">
+                    <span id="high"></span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam officiis blanditiis.
+                    <div class="download">
+                        <a href="#">See More..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
 </html>

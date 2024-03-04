@@ -1,0 +1,84 @@
+.nav {
+    background-color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menu {
+    float: left;
+    margin-left: 15px;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download {
+    background-color: rgb(26, 151, 229);
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.download>a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant {
+    background-color: rgb(105, 100, 100);
+    align-items: center;
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+}
+
+.eventshows {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    background-color: white;
+    height: 150px;
+    width: 300px;
+}
+
+.shows {
+    border: pink solid 5px;
+}
+
+#high {
+    font-weight: bolder;
+    font-size: 20px;
+}
